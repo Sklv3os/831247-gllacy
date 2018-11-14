@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Сергей Соколов](https://up.htmlacademy.ru/htmlcss/23/user/831247).
-* Наставник: [Роман Гуринович] (https://htmlacademy.ru/profile/id561773).
+* Наставник: [Роман Гуринович](https://htmlacademy.ru/profile/id561773).
 
 ---
 
