@@ -6,33 +6,48 @@
   </head>
   <body>
       <header class="main-header">
-          <nav class="main-menu">
-              <a class="logo">
-                  <img src="#" height="64" width="154" alt="Магазин Глейси">
-              </a>
-              <ul class="main-menu-items">
-                  <li><a href="">Каталог</a>
-                        <ul>
-                          <li><a href="#">Новинки</a></li>
-                          <li><a href="creamy.html">Сливочное</a></li>
-                          <li><a href="#">Щербеты</a></li>
-                          <li><a href="#">Фруктовый лед</a></li>
-                          <li><a href="#">Мелорин</a></li>
-                        </ul>
-                  </li>
-                  <li><a href="#">Доставка и оплата</a></li>
-                  <li><a href="#">О компании</a></li>
-              </ul>
-          </nav>
-          <div>
-              <a href="#" class="search user-nav"></a>
-              <a href="#" class="user-nav enter">Вход</a>
-              <a href="#" class="user-nav basket">Корзина</a>
-          </div>
-          <div>
-              <p>С 10 до 20, ежедневно</p>
-              <a href="tel:+78124502525">8 812 450-25-25</a>
-          </div>
+            <nav class="main-menu">
+                <a class="logo">
+                    <img src="#" height="64" width="154" alt="Магазин Глейси">
+                </a>
+                <ul class="main-menu-items">
+                    <li class="main-menu-item">
+                      <a href="">Каталог</a>
+                          <ul class="main-submenu">
+                                <li class="main-submenu-item">
+                                    <a href="#">Новинки</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="catalog.html">Сливочное</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Щербеты</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Фруктовый лед</a>
+                                </li>
+                                <li class="main-submenu-item">
+                                    <a href="#">Мелорин</a>
+                                </li>
+                          </ul>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#">О компании</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <a href="#" class="user-menu-item search"></a>
+                <a href="#" class="user-menu-item enter">Вход</a>
+                <a href="#" class="user-menu-item basket">Корзина</a>
+            </div>
+            <div class="header-worktime">
+                <p class="worktime">С 10 до 20, ежедневно</p>
+                <a href="tel:+78124502525" class="phone">8 812 450-25-25</a>
+            </div>
       </header>
       <main>
         <section class="slider">
@@ -40,42 +55,50 @@
         </section>
         <section class="gift">
           <h2 class="gift-header visually-hidden">Подарки при покупке</h2>
-            <section class="gift-item-berry gift-item">
+            <section class="gift-item gift-item-berry">
               <h3 class="gift-item-header">Малинка даром!</h3>
               <p class="gift-item-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-              <a href="#" class="gift-item-btn btn">Хочу варенье!</a>
+              <a href="#" class="btn gift-item-btn">Хочу варенье!</a>
             </section>
-            <section class="gift-item-chocolate gift-item">
+            <section class="gift-item gift-item-chocolate">
               <h3 class="gift-item-header">Шоколадки даром!</h3>
               <p class="gift-item-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-              <a href="#" class="gift-item-btn btn">Хочу шоколадки!</a>
+              <a href="#" class="btn gift-item-btn">Хочу шоколадки!</a>
             </section>
         </section>
         <section class="hits">
             <ul class="hits-list">
-              <li>
-                <img src="" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" height="267" width="267">
-                <p>310₽<span>/кг</span></p>
-                <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-                <a href="#">Быстрый просмотр</a>
+              <li class="hits-item">
+                <section class="product-card">
+                    <img src="" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" height="267" width="267" class="product-card-image">
+                    <p class="product-card-price">310₽<span>/кг</span></p>
+                    <p class="product-card-description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+                    <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
+                </section>
               </li>
-              <li>
-                <img src="" alt="Сливочно-кофейное с кусочками шоколада" height="267" width="267">
-                <p>380₽<span>/кг</span></p>
-                <p>Сливочно-кофейное с кусочками шоколада</p>
-                <a href="#">Быстрый просмотр</a>
+              <li class="hits-item">
+                <section class="product-card">
+                    <img src="" alt="Сливочно-кофейное с кусочками шоколада" height="267" width="267" class="product-card-image">
+                    <p class="product-card-price">380₽<span>/кг</span></p>
+                    <p class="product-card-description">Сливочно-кофейное с кусочками шоколада</p>
+                    <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
+                </section>
               </li>
-              <li>
-                <img src="" alt="Сливочно-клубничное с присыпкой из белого шоколада" height="267" width="267">
-                <p>355₽<span>/кг</span></p>
-                <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
-                <a href="#">Быстрый просмотр</a>
+              <li class="hits-item">
+                <section class="product-card">
+                    <img src="" alt="Сливочно-клубничное с присыпкой из белого шоколада" height="267" width="267" class="product-card-image">
+                    <p class="product-card-price">355₽<span>/кг</span></p>
+                    <p class="product-card-description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+                    <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
+                </section>
               </li>
-              <li>
-                <img src="" alt="Сливочное крем-брюле с карамельной подливкой" height="267" width="267">
-                <p>415₽<span>/кг</span></p>
-                <p>Сливочное крем-брюле с карамельной подливкой</p>
-                <a href="#">Быстрый просмотр</a>
+              <li class="hits-item">
+                <section class="product-card">
+                    <img src="" alt="Сливочное крем-брюле с карамельной подливкой" height="267" width="267" class="product-card-image">
+                    <p class="product-card-price">415₽<span>/кг</span></p>
+                    <p class="product-card-description">Сливочное крем-брюле с карамельной подливкой</p>
+                    <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
+                </section>
               </li>
             </ul>
         </section>
@@ -90,8 +113,8 @@
         </section>
         <section class="promo">
           <article class="promo-blog">
-            <p>Новое в нашем блоге</p>
-            <a href="#" class="promo-blog-header"><h2>10 способов сервировки фруктовых щербетов к столу</h2></a>
+            <p class="promo-blog-title">Новое в нашем блоге</p>
+            <h2 class="promo-blog-header"><a href="#">10 способов сервировки фруктовых щербетов к столу</a></h2>
           </article>
           <section class="promo-subscribe">
             <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
