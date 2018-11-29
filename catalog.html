@@ -39,6 +39,36 @@
           </li>
         </ul>
       </nav>
+      <section class="popup popup-search">
+        <form action="" method="get" class="popup-search">
+          <input type="search" name="search" placeholder="Что ищем?">
+        </form>
+      </section>
+      <section class="popup popup-login">
+        <form action="" method="get" class="popup-login">
+          <input type="email" name="email" placeholder="Электронная почта">
+          <input type="password" name="password" placeholder="Пароль">
+          <button class="btn enter-btn">Войти<button>
+        </form>
+        <a href="#" class="popup-login-forget">Забыли пароль?</a>
+        <a href="#" class="popup-login-new">Новая регистрация</a>
+      </section>
+      <section class="popup popup-basket">
+        <div class="order">
+          <button class="delete-order"></button>
+          <p class="order-name">Пломбир с апельсиновым джемом</p>
+          <p class="order-price">1,5 кг х 200 руб.</p>
+          <p class="order-cost">300 руб.</p>
+        </div>
+        <div class="order">
+          <button class="delete-order"></button>
+          <p class="order-name">Клубничный пломбир с присыпкой из белого шоколада</p>
+          <p class="order-price">1,5 кг х 300 руб.</p>
+          <p class="order-cost">450 руб.</p>
+        </div>
+        <p>Итого: 750 руб.</p>
+        <a href="#" class="btn order-btn">Оформить заказ</a>
+      </section>
       <div class="user-menu">
         <a href="#" class="user-menu-item search"></a>
         <a href="#" class="user-menu-item enter">Вход</a>
@@ -57,7 +87,76 @@
         <li><a>Сливочная</a></li>
       </ul>
       <section class="catalog-form">
-
+        <form action="index.html" method="post">
+          <ul class="catalog-form-list">
+            <li>
+              <label for="sort">Сортировка:</label>
+              <select name="sort" id="sort">
+                <option value="popularity">по популярности</option>
+                <option value="cheap">сначала недорогие</option>
+                <option value="expensive">сначала дорогие</option>
+                <option value="fat-content">по жирности</option>
+              </select>
+            </li>
+            <li>
+              <label for="cost-filtr">Цена: 100 руб. – 500 руб.</label>
+              <input type="range" name="cost-filtr" min="100" max="500" id="cost-filtr">
+            </li>
+            <li>
+              <fieldset>
+                <legend>Жирность:</legend>
+                <ul>
+                  <li>
+                    <label for="zero">0%</label>
+                    <input type="radio" name="fat" value="zero" id="zero" class="fat-content">
+                  </li>
+                  <li>
+                    <label for="little">до 10%</label>
+                    <input type="radio" name="fat" value="little" id="little" class="fat-content">
+                  </li>
+                  <li>
+                    <label for="normal">до 30%</label>
+                    <input type="radio" name="fat" value="normal" id="normal" class="fat-content">
+                  </li>
+                  <li>
+                    <label for="fatty">выше 30%</label>
+                    <input type="radio" name="fat" value="fatty" id="fatty" class="fat-content">
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+            <li>
+              <fieldset>
+                <legend>Наполнители:</legend>
+                  <ul>
+                    <li>
+                      <label for="chocolate">шоколадные</label>
+                      <input type="checkbox" name="chocolate-filler" value="chocolate" id="chocolate">
+                    </li>
+                    <li>
+                      <label for="sugar">сахарные присыпки</label>
+                      <input type="checkbox" name="sugar-filler" value="sugar" id="sugar">
+                    </li>
+                    <li>
+                      <label for="fruits">фрукты</label>
+                      <input type="checkbox" name="fruits-filler" value="fruits" id="fruits">
+                    </li>
+                    <li>
+                      <label for="syrup">сиропы</label>
+                      <input type="checkbox" name="syrups-filler" value="syrups" id="syrups">
+                    </li>
+                    <li>
+                      <label for="jam">джемы</label>
+                      <input type="checkbox" name="jam-filler" value="jam" id="jam">
+                    </li>
+                  </ul>
+              </fieldset>
+            </li>
+            <li>
+              <button type="button" name="button" class="catalog-form-btn">Применить</button>
+            </li>
+          </ul>
+        </form>
       </section>
       <section class="catalog">
         <ul class="catalog-list">
