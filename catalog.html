@@ -40,15 +40,15 @@
         </ul>
       </nav>
       <section class="popup popup-search">
-        <form action="" method="get" class="popup-search">
+        <form action="https://echo.htmlacademy.ru" method="post" class="popup-search">
           <input type="search" name="search" placeholder="Что ищем?">
         </form>
       </section>
       <section class="popup popup-login">
-        <form action="" method="get" class="popup-login">
+        <form action="https://echo.htmlacademy.ru" method="post" class="popup-login">
           <input type="email" name="email" placeholder="Электронная почта">
           <input type="password" name="password" placeholder="Пароль">
-          <button class="btn enter-btn">Войти<button>
+            <button class="btn enter-btn" type="submit">Войти</button>
         </form>
         <a href="#" class="popup-login-forget">Забыли пароль?</a>
         <a href="#" class="popup-login-new">Новая регистрация</a>
@@ -87,7 +87,7 @@
         <li><a>Сливочная</a></li>
       </ul>
       <section class="catalog-form">
-        <form action="index.html" method="post">
+        <form action="https://echo.htmlacademy.ru" method="post">
           <ul class="catalog-form-list">
             <li>
               <label for="sort">Сортировка:</label>
@@ -100,9 +100,10 @@
             </li>
             <li>
               <fieldset>
-              <legend>Цена: 100 руб. – 500 руб.</legend>
-              <button class="range-button"></button>
-              <button class="range-button"></button>
+                <legend>Цена: 100 руб. – 500 руб.</legend>
+                <button class="range-button"></button>
+                <button class="range-button"></button>
+              </fieldset>          
             </li>
             <li>
               <fieldset>
@@ -145,7 +146,7 @@
                     </li>
                     <li>
                       <label for="syrup">сиропы</label>
-                      <input type="checkbox" name="syrups-filler" value="syrups" id="syrups">
+                      <input type="checkbox" name="syrups-filler" value="syrups" id="syrup">
                     </li>
                     <li>
                       <label for="jam">джемы</label>
@@ -154,10 +155,8 @@
                   </ul>
               </fieldset>
             </li>
-            <li>
-              <button type="button" name="button" class="catalog-form-btn">Применить</button>
-            </li>
           </ul>
+          <button type="submit" name="button" class="catalog-form-btn">Применить</button>
         </form>
       </section>
       <section class="catalog">
