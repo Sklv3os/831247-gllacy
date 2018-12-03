@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.main-menu-items a {
+  font-weight: 700;
+  line-height: 18px;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+.main-menu-items,
+.main-submenu,
+.hits-list,
+.about-us-list,
+.social-btn-list,
+.footer-nav-list,
+.catalog-nav-list,
+.catalog-list,
+.breadcrumbs,
+.catalog-form-list,
+.fatty-list,
+.filler {
+  list-style: none;
+}
+
+.user-menu a {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.worktime {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.phone {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.slide-description {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.slide-btn {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.gift-item-berry {
+  background-color: red;
+  background-image: url("/img/backgrounds/berry.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.gift-item-header {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+
+.gift-item-text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.product-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.product-card-image {
+  border-radius: 140px;
+}
+
+.product-card-price {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.product-card-price span {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.product-card-description {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-us {
+  background-color: yellow;
+  background-image: url("img/backgrounds/waffle.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.about-us-header {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #323232;
+}
+
+.about-us-list-item {
+  color: #323232;
+}
+
+.promo-blog-title {
+  color: #323232;
+  font-weight: 500;
+}
+
+.promo-blog-header a {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.promo-subscribe p {
+  color: #5a5a5a;
+}
+
+.adress-header,
+.phone-header {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.contacts-address{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.contacts-phone{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #323232;
+}
+
+.contacts-worktime {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #323232;
+}
+
+.footer-nav-list a {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.made-by {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.made-by a {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.breadcrumbs a {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-fieldset {
+  border: 0;
+}
+
+.label-for-sort,
+.form-fieldset legend {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.form-fieldset label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500
+  color: #ffffff;
+}
+
+.catalog-form-btn {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500
+  color: #ffffff;
+}

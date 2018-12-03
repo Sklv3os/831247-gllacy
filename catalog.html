@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -90,7 +93,7 @@
         <form action="https://echo.htmlacademy.ru" method="post">
           <ul class="catalog-form-list">
             <li>
-              <label for="sort">Сортировка:</label>
+              <label for="sort" class="label-for-sort">Сортировка:</label>
               <select name="sort" id="sort">
                 <option value="popularity">по популярности</option>
                 <option value="cheap">сначала недорогие</option>
@@ -99,16 +102,16 @@
               </select>
             </li>
             <li>
-              <fieldset>
+              <fieldset class="form-fieldset">
                 <legend>Цена: 100 руб. – 500 руб.</legend>
                 <button class="range-button"></button>
                 <button class="range-button"></button>
-              </fieldset>          
+              </fieldset>
             </li>
             <li>
-              <fieldset>
+              <fieldset class="form-fieldset">
                 <legend>Жирность:</legend>
-                <ul>
+                <ul class="fatty-list">
                   <li>
                     <label for="zero">0%</label>
                     <input type="radio" name="fat" value="zero" id="zero" class="fat-content">
@@ -129,9 +132,9 @@
               </fieldset>
             </li>
             <li>
-              <fieldset>
+              <fieldset class="form-fieldset">
                 <legend>Наполнители:</legend>
-                  <ul>
+                  <ul class="fillers">
                     <li>
                       <label for="chocolate">шоколадные</label>
                       <input type="checkbox" name="chocolate-filler" value="chocolate" id="chocolate">
@@ -260,7 +263,7 @@
         </ul>
       </section>
       <div class="catalog-nav">
-        <ul>
+        <ul class="catalog-nav-list">
           <li class="catalog-nav-forward"><a href=""></a></li>
           <li><a>1</a></li>
           <li><a href="">2</a></li>
@@ -273,15 +276,15 @@
     </main>
     <footer>
       <section class="social-btn">
-        <ul>
-          <li class="social-btn-twitter"><a href="#"></a></li>
-          <li class="social-btn-instagram"><a href="#"></a></li>
-          <li class="social-btn-facebook"><a href="#"></a></li>
-          <li class="social-btn-vkontakte"><a href="#"></a></li>
+        <ul class="social-btn-list">
+          <li class="social-btn-twitter"><a href="#">Twitter</a></li>
+          <li class="social-btn-instagram"><a href="#">Instagram</a></li>
+          <li class="social-btn-facebook"><a href="#">Facebook</a></li>
+          <li class="social-btn-vkontakte"><a href="#">Vkontakte</a></li>
         </ul>
       </section>
       <section class="footer-nav">
-        <ul>
+        <ul class="footer-nav-list">
           <li><a href="#">Для поставщиков</a></li>
           <li><a href="#">О производстве</a></li>
           <li><a href="#">Наши документы</a></li>
@@ -292,7 +295,7 @@
         <a href="https://htmlacademy.ru/intensive/htmlcss">
           <img src="img/logo-htmlacademy-small.svg" width="108" height="39" alt="HTML Academy ">
         </a>
-        <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
+        <p class="made-by">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
       </section>
     </footer>
   </body>

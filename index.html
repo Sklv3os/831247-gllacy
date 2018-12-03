@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -42,8 +45,9 @@
       <div class="user-menu">
         <a href="#" class="user-menu-item search"></a>
         <a href="#" class="user-menu-item enter">Вход</a>
-        <a href="#" class="user-menu-item basket">Корзина</a>
+        <a href="#" class="user-menu-item basket">Пусто</a>
       </div>
+      <!--
       <section class="popup popup-search">
         <form action="https://echo.htmlacademy.ru" method="post" class="popup-search">
           <input type="search" name="search" placeholder="Что ищем?">
@@ -68,6 +72,7 @@
           <button class="btn send-us" type="submit">Отправить</button>
         </form>
       </section>
+    -->
       <div class="header-worktime">
         <p class="worktime">С 10 до 20, ежедневно</p>
         <a href="tel:+78124502525" class="phone">8 812 450-25-25</a>
@@ -165,26 +170,26 @@
       <section class="contacts">
         <img src="img/map.png" alt="Карта проезда" height="430" width="1250" class="contacts-map">
         <div class="contacts-address">
-          <p>Адрес главного офиса и офлайн-магазина:</p>
-          <p>ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
-          <p>Для заказов по телефону:</p>
-          <a href="tel:+78124502525">8 812 450-25-25</a>
-          <p>(с 10 до 20 ежедневно)</p>
+          <p class="adress-header">Адрес главного офиса и офлайн-магазина:</p>
+          <p class="contacts-address">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
+          <p class="phone-header">Для заказов по телефону:</p>
+          <a href="tel:+78124502525" class="contacts-phone">8 812 450-25-25</a>
+          <p class-"contacts-worktime">(с 10 до 20 ежедневно)</p>
           <a href="#" class="btn contacts-write-us">Форма обратной связи</a>
         </div>
       </section>
     </main>
     <footer>
       <section class="social-btn">
-        <ul>
-          <li class="social-btn-twitter"><a href="#"></a></li>
-          <li class="social-btn-instagram"><a href="#"></a></li>
-          <li class="social-btn-facebook"><a href="#"></a></li>
-          <li class="social-btn-vkontakte"><a href="#"></a></li>
+        <ul class="social-btn-list">
+          <li class="social-btn-twitter"><a href="#">Twitter</a></li>
+          <li class="social-btn-instagram"><a href="#">Instagram</a></li>
+          <li class="social-btn-facebook"><a href="#">Facebook</a></li>
+          <li class="social-btn-vkontakte"><a href="#">Vkontakte</a></li>
         </ul>
       </section>
       <section class="footer-nav">
-        <ul>
+        <ul class="footer-nav-list">
           <li><a href="#">Для поставщиков</a></li>
           <li><a href="#">О производстве</a></li>
           <li><a href="#">Наши документы</a></li>
@@ -195,7 +200,7 @@
         <a href="https://htmlacademy.ru/intensive/htmlcss">
           <img src="img/logo-htmlacademy-small.svg" width="108" height="39" alt="HTML Academy ">
         </a>
-        <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
+        <p class="made-by">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
       </section>
     </footer>
   </body>
