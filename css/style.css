@@ -1,4 +1,6 @@
 body {
+  min-width: 1460px;
+
   margin: 0;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
@@ -77,8 +79,15 @@ a {
 }
 
 .gift-item-berry {
-  background-color: red;
-  background-image: url("/img/backgrounds/berry.jpg");
+  background-color: #c7204a;
+  background-image: url("../img/backgrounds/berry.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.gift-item-chocolate {
+  background-color: #532d16;
+  background-image: url("../img/backgrounds/chocolate.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -119,12 +128,13 @@ a {
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
+  color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .about-us {
-  background-color: yellow;
-  background-image: url("img/backgrounds/waffle.png");
+  background-color: #ede0c6;
+  background-image: url("../img/backgrounds/waffle.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -140,6 +150,13 @@ a {
   color: #323232;
 }
 
+.promo-blog {
+  background-color: #ffffff;
+  background-image: url("../img/backgrounds/strawberry.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
 .promo-blog-title {
   color: #323232;
   font-weight: 500;
@@ -152,8 +169,19 @@ a {
   color: #323232;
 }
 
+.promo-subscribe {
+  background-color: #ffffff;
+  background-image: url("../img/backgrounds/subscribe.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
 .promo-subscribe p {
   color: #5a5a5a;
+}
+
+.contacts-address {
+  background-color: #ffffff;
 }
 
 .adress-header,

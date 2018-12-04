@@ -43,36 +43,28 @@
         </ul>
       </nav>
       <div class="user-menu">
-        <a href="#" class="user-menu-item search"></a>
-        <a href="#" class="user-menu-item enter">Вход</a>
+        <div class="search-wrapper">
+          <a href="#" class="user-menu-item search"></a>
+          <section class="popup popup-search">
+            <form action="https://echo.htmlacademy.ru" method="get" class="popup-search">
+              <input type="search" name="search" placeholder="Что ищем?">
+            </form>
+          </section>
+        </div>
+        <div class="enter-wrapper">
+          <a href="#" class="user-menu-item enter">Вход</a>
+          <section class="popup popup-login">
+            <form action="https://echo.htmlacademy.ru" method="post" class="popup-login">
+              <input type="email" name="email" placeholder="Электронная почта">
+              <input type="password" name="password" placeholder="Пароль">
+                <button type="submit" class="btn enter-btn">Войти</button>
+            </form>
+            <a href="#" class="popup-login-forget">Забыли пароль?</a>
+            <a href="#" class="popup-login-new">Новая регистрация</a>
+          </section>
+        </div>
         <a href="#" class="user-menu-item basket">Пусто</a>
       </div>
-      <!--
-      <section class="popup popup-search">
-        <form action="https://echo.htmlacademy.ru" method="post" class="popup-search">
-          <input type="search" name="search" placeholder="Что ищем?">
-        </form>
-      </section>
-      <section class="popup popup-login">
-        <form action="https://echo.htmlacademy.ru" method="post" class="popup-login">
-          <input type="email" name="email" placeholder="Электронная почта">
-          <input type="password" name="password" placeholder="Пароль">
-            <button type="submit" class="btn enter-btn">Войти</button>
-        </form>
-        <a href="#" class="popup-login-forget">Забыли пароль?</a>
-        <a href="#" class="popup-login-new">Новая регистрация</a>
-      </section>
-      <section class="popup popup-write-us">
-        <h2>Мы обязательно вам ответим!</h2>
-        <button class="popup-close"></button>
-        <form class="popup-write-us-form" action="https://echo.htmlacademy.ru" method="post">
-          <input type="text" name="your-name" value="Как вас зовут?">
-          <input type="email" name="your-email" value="Ваша почта для ответа?">
-          <textarea name="write-us-field">Напишите что-нибудь...</textarea>
-          <button class="btn send-us" type="submit">Отправить</button>
-        </form>
-      </section>
-    -->
       <div class="header-worktime">
         <p class="worktime">С 10 до 20, ежедневно</p>
         <a href="tel:+78124502525" class="phone">8 812 450-25-25</a>
@@ -115,7 +107,7 @@
             <section class="product-card">
               <img src="img/catalog/creamy-with-orange.jpg" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" height="267" width="267" class="product-card-image">
               <p class="product-card-price">310₽<span>/кг</span></p>
-              <p class="product-card-description">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+              <a href="#" class="product-card-description">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
               <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
             </section>
           </li>
@@ -123,7 +115,7 @@
             <section class="product-card">
               <img src="img/catalog/creamy-coffee.jpg" alt="Сливочно-кофейное с кусочками шоколада" height="267" width="267" class="product-card-image">
               <p class="product-card-price">380₽<span>/кг</span></p>
-              <p class="product-card-description">Сливочно-кофейное с кусочками шоколада</p>
+              <a href="#" class="product-card-description">Сливочно-кофейное с кусочками шоколада</a>
               <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
             </section>
           </li>
@@ -131,7 +123,7 @@
             <section class="product-card">
               <img src="img/catalog/creamy-strawberry.jpg" alt="Сливочно-клубничное с присыпкой из белого шоколада" height="267" width="267" class="product-card-image">
               <p class="product-card-price">355₽<span>/кг</span></p>
-              <p class="product-card-description">Сливочно-клубничное с присыпкой из белого шоколада</p>
+              <a href="#" class="product-card-description">Сливочно-клубничное с присыпкой из белого шоколада</a>
               <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
             </section>
           </li>
@@ -139,7 +131,7 @@
             <section class="product-card">
               <img src="img/catalog/creme-brulee.jpg" alt="Сливочное крем-брюле с карамельной подливкой" height="267" width="267" class="product-card-image">
               <p class="product-card-price">415₽<span>/кг</span></p>
-              <p class="product-card-description">Сливочное крем-брюле с карамельной подливкой</p>
+              <a href="#" class="product-card-description">Сливочное крем-брюле с карамельной подливкой</a>
               <a href="#" class="btn product-card-btn">Быстрый просмотр</a>
             </section>
           </li>
@@ -163,7 +155,7 @@
           <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
           <form class="promo-subscribe-form" action="https://echo.htmlacademy.ru" method="post">
             <input type="email" name="your-email" placeholder="Электронная почта">
-            <button type="submit" name="subscribe-me" class="btn subscribe-btn">Отправить</button>
+            <button type="submit" class="btn subscribe-btn">Отправить</button>
           </form>
         </section>
       </section>
@@ -174,8 +166,20 @@
           <p class="contacts-address">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
           <p class="phone-header">Для заказов по телефону:</p>
           <a href="tel:+78124502525" class="contacts-phone">8 812 450-25-25</a>
-          <p class-"contacts-worktime">(с 10 до 20 ежедневно)</p>
-          <a href="#" class="btn contacts-write-us">Форма обратной связи</a>
+          <p class="contacts-worktime">(с 10 до 20 ежедневно)</p>
+          <div class="write-us-wrapper">
+            <a href="#" class="btn contacts-write-us">Форма обратной связи</a>
+            <section class="popup popup-write-us">
+              <h2>Мы обязательно вам ответим!</h2>
+              <button class="popup-close"></button>
+              <form class="popup-write-us-form" action="https://echo.htmlacademy.ru" method="post">
+                <input type="text" name="your-name" value="Как вас зовут?">
+                <input type="email" name="your-email" value="Ваша почта для ответа?">
+                <textarea name="write-us-field">Напишите что-нибудь...</textarea>
+                <button class="btn send-us" type="submit">Отправить</button>
+              </form>
+            </section>
+          </div>
         </div>
       </section>
     </main>
@@ -198,7 +202,7 @@
       </section>
       <section class="copyright">
         <a href="https://htmlacademy.ru/intensive/htmlcss">
-          <img src="img/logo-htmlacademy-small.svg" width="108" height="39" alt="HTML Academy ">
+          <img src="img/logo-htmlacademy.svg" width="108" height="39" alt="HTML Academy ">
         </a>
         <p class="made-by">Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2017</p>
       </section>
