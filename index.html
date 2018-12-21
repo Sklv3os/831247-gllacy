@@ -16,7 +16,7 @@
         <ul class="main-menu-items">
           <li class="main-menu-item">
             <a href="">Каталог</a>
-              <ul class="main-submenu">
+              <ul class="main-submenu popup">
                 <li class="main-submenu-item">
                   <a href="#">Новинки</a>
                 </li>
@@ -89,7 +89,6 @@
         </section>
       </section>
       <section class="gift">
-        <h2 class="gift-header visually-hidden">Подарки при покупке</h2>
         <section class="gift-item gift-item-berry">
           <h3 class="gift-item-header">Малинка даром!</h3>
           <p class="gift-item-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
@@ -147,11 +146,11 @@
         </ul>
       </section>
       <section class="promo">
-        <article class="promo-blog">
+        <article class="promo-blog promo-wrapper">
           <p class="promo-blog-title">Новое в нашем блоге</p>
           <h2 class="promo-blog-header"><a href="#">10 способов сервировки фруктовых щербетов к столу</a></h2>
         </article>
-        <section class="promo-subscribe">
+        <section class="promo-subscribe promo-wrapper">
           <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
           <form class="promo-subscribe-form" action="https://echo.htmlacademy.ru" method="post">
             <input type="email" name="your-email" placeholder="Электронная почта">
@@ -160,26 +159,26 @@
         </section>
       </section>
       <section class="contacts">
-        <img src="img/map.png" alt="Карта проезда" height="430" width="1250" class="contacts-map">
+        <img src="img/map.png" alt="Карта проезда" height="430" width="1200" class="contacts-map">
         <div class="contacts-address">
-          <p class="adress-header">Адрес главного офиса и офлайн-магазина:</p>
-          <p class="contacts-address">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
-          <p class="phone-header">Для заказов по телефону:</p>
-          <a href="tel:+78124502525" class="contacts-phone">8 812 450-25-25</a>
-          <p class="contacts-worktime">(с 10 до 20 ежедневно)</p>
           <div class="write-us-wrapper">
+            <p class="adress-header">Адрес главного офиса и офлайн-магазина:</p>
+            <p class="contacts-address">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
+            <p class="phone-header">Для заказов по телефону:</p>
+            <a href="tel:+78124502525" class="contacts-phone">8 812 450-25-25</a>
+            <p class="contacts-worktime">(с 10 до 20 ежедневно)</p>
             <a href="#" class="btn contacts-write-us">Форма обратной связи</a>
-            <section class="popup popup-write-us">
-              <h2>Мы обязательно вам ответим!</h2>
-              <button class="popup-close"></button>
-              <form class="popup-write-us-form" action="https://echo.htmlacademy.ru" method="post">
-                <input type="text" name="your-name" value="Как вас зовут?">
-                <input type="email" name="your-email" value="Ваша почта для ответа?">
-                <textarea name="write-us-field">Напишите что-нибудь...</textarea>
-                <button class="btn send-us" type="submit">Отправить</button>
-              </form>
-            </section>
           </div>
+              <section class="popup popup-write-us">
+                <h2>Мы обязательно вам ответим!</h2>
+                <button class="popup-close"></button>
+                <form class="popup-write-us-form" action="https://echo.htmlacademy.ru" method="post">
+                  <input type="text" name="your-name" value="Как вас зовут?">
+                  <input type="email" name="your-email" value="Ваша почта для ответа?">
+                  <textarea name="write-us-field">Напишите что-нибудь...</textarea>
+                  <button class="btn send-us" type="submit">Отправить</button>
+                </form>
+              </section>
         </div>
       </section>
     </main>
